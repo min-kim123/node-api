@@ -13,7 +13,7 @@ const MONGO_URL = process.env.MONGO_URL;
 const PORT = process.env.PORT || 5000;
 
 var corsOptions = {
-  origin: ['http://localhost:3000', 'http://localhost:3001', 'https://product-crud-56t8.onrender.com/', 'https://07d7-216-165-95-130.ngrok-free.app'],
+  origin: ['http://localhost:3000', 'http://localhost:5173', 'https://product-crud-56t8.onrender.com/', 'https://07d7-216-165-95-130.ngrok-free.app'],
   optionsSuccessStatus: 200 
 }
 
