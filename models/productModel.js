@@ -18,12 +18,6 @@ const productSchema = mongoose.Schema(
       type: String,
       required: true
     },
-    rating: {
-      type: Number,
-    },
-    numReviews: {
-      type: Number
-    },
     description: {
       type: String
     },
